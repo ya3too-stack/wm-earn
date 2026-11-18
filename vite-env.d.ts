@@ -1,0 +1,2 @@
+/// <reference types="vite/client" />
+interface Window { Telegram?: { WebApp?: { initData: string; initDataUnsafe: any; ready(): void; expand(): void; BackButton?: any } } }
